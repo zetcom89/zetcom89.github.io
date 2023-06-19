@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html land="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="Nauka podstaw HTML5 dla początkujących"
+        />
+        <style>
+            body {
+                margin: 0px;
+                font-family: Roboto;
+            }
+
+            header {
+                display: inline-block;
+                padding: 25px 0 0 32px;
+            }
+
+            nav {
+                display: inline-block;
+                width: 100vw;
+                padding: 0;
+            }
+
+            footer {
+                padding: 32px 0 32px 32px;
+                background-color: #2f303a;
+                color: white;
+            }
+
+            #agencja {
+                padding: 32px 0 32px 0;
+                text-align: center;
+            }
+
+            section {
+                padding: 16px 0 32px 0;
+            }
+
+            #start {
+                background-color: #2f303a;
+                color: white;
+                height: 300px;
+            }
+
+            #blok-txt {
+                display: inline-block;
+                width: 265px;
+                padding: 10px;
+                margin-top: 32px;
+                text-align: left;
+            }
+
+            #team {
+                background-color: #f5f4fa;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            #h-logo {
+                display: inline;
+                line-height: 28px;
+                width: auto;
+                height: 50px;
+                float: left;
+                vertical-align: top;
+            }
+
+            #h-navi {
+                display: inline;
+                line-height: 28px;
+                width: 256px;
+                height: 50px;
+                float: left;
+            }
+
+            #h-contact-us {
+                display: inline;
+                line-height: 28px;
+                width: auto;
+                height: 50px;
+                float: right;
+                padding-right: 64px;
+            }
+
+            #team-member {
+                display: inline-block;
+                background-color: white;
+                border-radius: 8px;
+                padding-bottom: 16px;
+                line-height: 32px;
+                margin-right: 8px;
+            }
+
+            #team-member img {
+                padding: 8px;
+                width: 260px;
+            }
+
+            li {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 10px;
+            }
+
+            .button {
+                background-color: #1d92ff;
+                color: white;
+                border-radius: 8px;
+                border: 0;
+                padding: 16px 24px 16px 24px;
+                font-size: 16px;
+            }
+        </style>
+
+        <title>Zadanie domowe GOIT</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="h-logo">
+                    <a href="/"><p>Logo</p></a>
+                </div>
+                <div id="h-navi">
+                    <ul>
+                        <li><a href="#agencja">Agencja</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div id="h-contact-us">
+                    <ul>
+                        <li>
+                            <a href="mailto: info@nazwafirmy.com"
+                                >info@nazwafirmy.com</a
+                            >
+                        </li>
+                        <li>
+                            <a href="tel: +48 222 222 222">+48 222 222 222</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main id="agencja">
+            <section id="start">
+                <p style="font-size: 48px; text-align: center">
+                    EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
+                </p>
+                <button type="button" class="button">Zamów usługę</button>
+            </section>
+
+            <section>
+                <div id="blok-txt">
+                    <p>LOREM IPSUM</p>
+                    <p style="color: grey">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </div>
+                <div id="blok-txt">
+                    <p>LOREM IPSUM</p>
+                    <p style="color: grey">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </div>
+                <div id="blok-txt">
+                    <p>LOREM IPSUM</p>
+                    <p style="color: grey">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </div>
+                <div id="blok-txt">
+                    <p>LOREM IPSUM</p>
+                    <p style="color: grey">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <h2>Czym się zajmujemy</h2>
+                <img
+                    src="./images/img1.png"
+                    alt="services1"
+                    style="padding: 8px"
+                />
+                <img
+                    src="./images/img2.png"
+                    alt="services2"
+                    style="padding: 8px"
+                />
+                <img
+                    src="./images/img3.png"
+                    alt="services3"
+                    style="padding: 8px"
+                />
+            </section>
+
+            <section id="team">
+                <h2>Nasz zespół</h2>
+                <div id="team-member">
+                    <img
+                        src="./images/placeholder-human1.jpg"
+                        alt="team member1"
+                    />
+                    <div id="team-member-desc">
+                        <p>John Doe</p>
+                        <p style="color: grey; margin-top: -20px">
+                            Graphic Designer
+                        </p>
+                    </div>
+                </div>
+                <div id="team-member">
+                    <img
+                        src="./images/placeholder-human2.jpg"
+                        alt="team member2"
+                    />
+                    <div id="team-member-desc">
+                        <p>Daisy Doe</p>
+                        <p style="color: grey; margin-top: -20px">
+                            Motion Designer
+                        </p>
+                    </div>
+                </div>
+                <div id="team-member">
+                    <img
+                        src="./images/placeholder-human3.jpg"
+                        alt="team member3"
+                    />
+                    <div id="team-member-desc">
+                        <p>Jack Doe</p>
+                        <p style="color: grey; margin-top: -20px">
+                            UI/UX Designer
+                        </p>
+                    </div>
+                </div>
+                <div id="team-member">
+                    <img
+                        src="./images/placeholder-human4.jpg"
+                        alt="team member4"
+                    />
+                    <div id="team-member-desc">
+                        <p>Elisabeth Doe</p>
+                        <p style="color: grey; margin-top: -20px">
+                            Traditional Artist
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="kontakt">
+            <p>Nazwa firmy</p>
+            <p>m. Konstantynów Łódzki, Antoniusza 87</p>
+            <p>
+                <a href="mailto: info@nazwafirmy.com">info@nazwafirmy.com</a>
+            </p>
+            <p>
+                <a href="tel: +48 222 222 222">+48 222 222 222</a>
+            </p>
+        </footer>
+    </body>
+</html>
